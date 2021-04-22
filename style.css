@@ -95,7 +95,7 @@ li::before {
 
 .des{
 	position: fixed;
-	bottom: 5vh;
+	bottom: 3vh;
 	left: 0vw;
 	width: 25vw;
 	list-style: none;
@@ -113,7 +113,7 @@ li::before {
 	display: grid;
   	grid-gap: 2vw 2vw;
   	grid-template-columns: repeat(2, 25vw [col-start]) ;
-  	grid-template-rows: repeat(26, 5vw[col-start]) ;
+  	grid-template-rows: repeat(30, 5vw[col-start]) ;
 }
 
 
@@ -124,28 +124,35 @@ li::before {
 
 .box1{
 	grid-column-start: 2;
-    grid-row-start: 5;
+    grid-row-start: 6;
 }
 
 
 .box2{
 	grid-column-start: 1;
-    grid-row-start: 11;
+    grid-row-start: 12;
 }
 
 .box3{
 	grid-column-start: 2;
-    grid-row-start: 14;
+    grid-row-start: 17;
+
 }
 .box4{
 	grid-column-start: 1;
-    grid-row-start: 18;
+    grid-row-start: 23;
 }
 
 .box5{
 	grid-column-start: 2;
-    grid-row-start: 22;
+    grid-row-start: 27;
 }
+
+.box6{
+	grid-column-start: 1;
+    grid-row-start: 31;
+}
+
 
 .caption{
 	/*margin-top: 1vw;*/
