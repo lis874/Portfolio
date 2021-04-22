@@ -1,31 +1,36 @@
 // $(document).ready(function(){
-//   var letters = $('.des').text();
+//   var letters = $('#text').text();
 //   var nHTML = '';
 //   for(var letter of letters) {
 //     nHTML+="<span class='x'>"+letter+"</span>";
 //   }
-//   $('.des').html(nHTML);
+//   $('#text').html(nHTML);
 // })
 
-// $("#augen").hover(function(){
-//   $("#a1").css("opacity", 1);
-//   }, function(){
-//   $("#a1").css("opacity", 0);
-// });
-
-// $("#augen").hover(function(){
-//   $("#a1").css("opacity", 1);
-//   }, function(){
-//   $("#a1").css("opacity", 0);
-// });
 
 
-$("#text").html(
-  $("#text").text().split("").map(a => `<span class="x">${a}</span>`)
+$("#t1").html(
+  $("#t1").text().split("").map(a => `<span class="x">${a}</span>`)
 );
-$(".header").html(
-  $(".header").text().split("").map(a => `<span class="x">${a}</span>`)
+
+$("#t2").html(
+  $("#t2").text().split("").map(a => `<span class="x">${a}</span>`)
 );
+
+$("#t3").html(
+  $("#t3").text().split("").map(a => `<span class="x">${a}</span>`)
+);
+
+$("#t4").html(
+  $("#t4").text().split("").map(a => `<span class="x">${a}</span>`)
+);
+
+$("#blue").html(
+  $("#blue").text().split("").map(a => `<span class="x">${a}</span>`)
+);
+
+
+
 
 // $( "#a1").click(function() {
 //   $( ".index" ).toggle( "slide", {direction: "left" });
