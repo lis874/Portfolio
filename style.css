@@ -127,7 +127,7 @@ li::before {
 	display: grid;
   	grid-gap: 2vw 2vw;
   	grid-template-columns: repeat(2, 25vw [col-start]) ;
-  	grid-template-rows: repeat(30, 5vw[col-start]) ;
+  	grid-template-rows: repeat(32, 5vw[col-start]) ;
 }
 
 
@@ -144,27 +144,27 @@ li::before {
 
 .box2{
 	grid-column-start: 1;
-    grid-row-start: 12;
+    grid-row-start: 13;
 }
 
 .box3{
 	grid-column-start: 2;
-    grid-row-start: 17;
+    grid-row-start: 19;
 
 }
 .box4{
 	grid-column-start: 1;
-    grid-row-start: 23;
+    grid-row-start: 25;
 }
 
 .box5{
 	grid-column-start: 2;
-    grid-row-start: 27;
+    grid-row-start: 29;
 }
 
 .box6{
 	grid-column-start: 1;
-    grid-row-start: 31;
+    grid-row-start: 32;
 }
 
 
